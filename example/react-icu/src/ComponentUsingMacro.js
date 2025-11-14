@@ -8,7 +8,7 @@ import { Trans, Plural, Select } from 'react-i18next/icu.macro';
 // this let us write "{ trainersCount, number }" or "{ catchDate, date, short }"
 // inside Trans -> other option would be an additional component which transforms
 // to needed string, eg. <FormattedNumber count={count} />
-/* eslint-disable no-undef, no-sequences */
+
 // prettier-ignore
 export function ComponentUsingMacro() {
   const name = 'John Doe';
